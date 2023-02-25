@@ -17,6 +17,9 @@ export default function Bar({ bom , otimo , ruim}) {
   return (
     <div>
   <Chart chartType="ColumnChart" width="90%" height="400px" data={data} />
+  <div>
+
+  </div>
     </div>
   )
 }

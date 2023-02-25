@@ -1,0 +1,37 @@
+.card{
+    margin-top: 30px;
+width: 88vw;
+height: 20vh;
+background: #f8f6f6;
+padding:3px;
+border:solid 1px black;
+border-radius: 10PX;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.atualiza{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background: green;
+    border-radius: 4px;
+    font-size: 1em;
+    color:white;
+    }
+
+    @media screen and (max-width: 768px) {
+        .grafico{
+          font-size: 1em;
+        }
+
+        .card{
+            flex-direction: column;
+            height: 25vh;
+        }
+      }
