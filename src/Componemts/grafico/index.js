@@ -2,13 +2,13 @@ import { Chart } from "react-google-charts";
 
 import React from 'react'
 
-export default function Bar({ bom , otimo , regular}) {
+export default function Bar({ bom , otimo , ruim}) {
 
     const data = [
         ["Element", "Satisfação", { role: "style" }],
-        ["Ruim", bom, "blue"], // RGB value
-        ["Bom", otimo, "gold"], // English color name
-        ["Ótimo", regular, "green"], // English color name
+        ["Ruim", ruim, "red"], // RGB value
+        ["Bom", bom, "gold"], // English color name
+        ["Ótimo", otimo, "green"], // English color name
        // CSS-style declaration
       ];
 

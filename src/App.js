@@ -51,7 +51,7 @@ useEffect(() => {
       <h1>Satisfação do Cliente</h1>
       <div className='cardGraf'>
 
-       <Bar  bom={bom } otimo={ otimo} regular={ruim }/>
+       <Bar  bom={bom } otimo={ otimo} ruim={ruim }/>
       </div>
     <div>
 
